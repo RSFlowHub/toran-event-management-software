@@ -1,0 +1,15 @@
+title: Toran – Wedding & Event Management Software for Indian Weddings
+description: Self-hosted wedding and event management software for India. Guest list, RSVP, WhatsApp invitations, shagun ledger, seating, vendors and budget, QR check-in. English, Hindi, Gujarati, Marathi. One-time price from ₹9,999.
+url: https://rsflowhub.github.io
+baseurl: /toran-event-management-software
+lang: en-IN
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+relative_links:
+  enabled: true
+  collections: false

@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Buy or see pricing
+    url: https://toran.rsflowhub.com/pricing?utm_source=github&utm_medium=issues&utm_campaign=toran
+    about: One-time licence, GST included.
+  - name: Book a free demo or ask a question
+    url: https://toran.rsflowhub.com/contact?utm_source=github&utm_medium=issues&utm_campaign=toran
+    about: Talk to the RSFlowHub team.
+  - name: Customer support
+    url: https://toran.rsflowhub.com/contact?utm_source=github&utm_medium=issues&utm_campaign=toran
+    about: Already a customer? Contact support with your order number (or email support@rsflowhub.com).
