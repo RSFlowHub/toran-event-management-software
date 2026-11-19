@@ -7,14 +7,16 @@
 **Self-hosted wedding planner software. Manage the guest list, RSVPs, WhatsApp invitations, the shagun (chandlo) ledger, seating, vendors and budget, and QR check-in at the gate. Pay once, install it on your own server, and keep every phone number and gift amount private.**
 
 [![Buy Toran](https://img.shields.io/badge/Buy%20Toran-from%20%E2%82%B99%2C999-e9a319?style=for-the-badge)](https://toran.rsflowhub.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=toran)
-[![Book a demo](https://img.shields.io/badge/Book%20a%20free%20demo-6b1d2e?style=for-the-badge)](https://toran.rsflowhub.com/contact?topic=demo&utm_source=github&utm_medium=readme&utm_campaign=toran)
+[![Try the live demo](https://img.shields.io/badge/Try%20the%20live%20demo-6b1d2e?style=for-the-badge)](https://demo-toran.rsflowhub.com/login)
 [![Website](https://img.shields.io/badge/Website-toran.rsflowhub.com-4a1424?style=for-the-badge)](https://toran.rsflowhub.com/?utm_source=github&utm_medium=readme&utm_campaign=toran)
 
 ![Version](https://img.shields.io/badge/version-1.0-blue) ![PHP](https://img.shields.io/badge/PHP-8.2%2B-777bb4) ![Languages](https://img.shields.io/badge/English%20%7C%20%E0%A4%B9%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80%20%7C%20%E0%AA%97%E0%AB%81%E0%AA%9C%E0%AA%B0%E0%AA%BE%E0%AA%A4%E0%AB%80%20%7C%20%E0%A4%AE%E0%A4%B0%E0%A4%BE%E0%A4%A0%E0%A5%80-orange) ![Made in India](https://img.shields.io/badge/Made%20in-India-ff9933) ![Licence](https://img.shields.io/badge/licence-one--time-success)
 
 </div>
 
-![Toran wedding management software showing a wedding dashboard with guests, RSVPs, shagun and the Mehndi, Sangeet and Lagna timeline](docs/assets/screenshots/toran-home.jpg)
+![Toran wedding management software dashboard: countdown to the wedding, 300 guests, RSVP status, shagun received and the event timeline](docs/assets/screenshots/toran-wedding-dashboard.jpg)
+
+> 🎮 **Live demo:** **[demo-toran.rsflowhub.com](https://demo-toran.rsflowhub.com/login)**. Pick Admin, Planner or Staff and sign in with one click, no sign-up needed. It has a sample wedding with 300 guests, RSVPs, shagun, seating, vendors and a budget, and it reloads every hour.
 
 > **About this repository:** this repository holds the product page, screenshots and documentation for **Toran**. The software itself is sold as a one-time licence at **[toran.rsflowhub.com](https://toran.rsflowhub.com/?utm_source=github&utm_medium=readme&utm_campaign=toran)**.
 
@@ -162,11 +164,17 @@ Toran is not only for weddings. Each event type has its own page:
 
 ## Screenshots
 
+All screenshots are from the [live demo](https://demo-toran.rsflowhub.com/login) (sample wedding data).
+
 | | |
 |---|---|
-| ![Toran features: everything to run an Indian wedding in one app](docs/assets/screenshots/toran-features.jpg) **All modules** | ![Toran digital shagun and chandlo register](docs/assets/screenshots/toran-shagun.jpg) **Shagun ledger** |
-| ![Toran WhatsApp wedding invitations](docs/assets/screenshots/toran-whatsapp.jpg) **WhatsApp invitations** | ![Toran wedding RSVP link per family](docs/assets/screenshots/toran-rsvp.jpg) **RSVP** |
-| ![Toran QR check-in at the wedding gate](docs/assets/screenshots/toran-checkin.jpg) **QR check-in** | ![Toran wedding seating plan](docs/assets/screenshots/toran-seating.jpg) **Seating plan** |
+| ![Toran event timeline with Sagai, Mehndi, Sangeet, Lagna and Reception](docs/assets/screenshots/toran-events-functions.jpg) **Events and functions** | ![Toran wedding guest list with families, bride and groom side and RSVP](docs/assets/screenshots/toran-guest-list.jpg) **Guest list (300 guests, 100 families)** |
+| ![Toran RSVP replies per function with headcounts](docs/assets/screenshots/toran-rsvp.jpg) **RSVP per function** | ![Toran WhatsApp invitations and RSVP reminders with send log](docs/assets/screenshots/toran-whatsapp-invitations.jpg) **WhatsApp invitations** |
+| ![Toran invitation designer with Royal, Minimal and Pastel designs](docs/assets/screenshots/toran-invitation-designer.jpg) **Invitation designer** | ![Toran drag-and-drop wedding seating plan with tables](docs/assets/screenshots/toran-seating-plan.jpg) **Seating plan** |
+| ![Toran shagun ledger with running total, by event and by side](docs/assets/screenshots/toran-shagun-ledger.jpg) **Shagun / chandlo ledger** | ![Toran wedding vendors with agreed amounts and balances](docs/assets/screenshots/toran-vendors.jpg) **Vendors** |
+| ![Toran wedding budget planned vs spent by category](docs/assets/screenshots/toran-wedding-budget.jpg) **Budget: planned vs spent** | ![Toran language settings: English, Hindi, Gujarati, Marathi](docs/assets/screenshots/toran-languages.jpg) **English, हिन्दी, ગુજરાતી, मराठी** |
+
+<p align="center"><img src="docs/assets/screenshots/toran-qr-check-in-mobile.jpg" alt="Toran QR check-in desk on a mobile phone at the wedding gate" width="300"><br><b>QR check-in on a phone</b></p>
 
 **Invitation designs bundled with Toran:**
 
@@ -174,7 +182,7 @@ Toran is not only for weddings. Each event type has its own page:
 |---|---|---|
 | ![Royal Indian wedding invitation template](docs/assets/screenshots/toran-invitation-royal.png) | ![Pastel wedding invitation template](docs/assets/screenshots/toran-invitation-pastel.png) | ![Minimal wedding invitation template](docs/assets/screenshots/toran-invitation-minimal.png) |
 
-👉 **See it live:** [book a free demo](https://toran.rsflowhub.com/contact?topic=demo&utm_source=github&utm_medium=readme&utm_campaign=toran)
+👉 **[Try the live demo](https://demo-toran.rsflowhub.com/login)** or **[book a guided demo](https://toran.rsflowhub.com/contact?topic=demo&utm_source=github&utm_medium=readme&utm_campaign=toran)**
 
 ---
 
@@ -253,7 +261,7 @@ No. Each family gets a private link that opens on any phone.
 <details>
 <summary><b>Can I try it before buying?</b></summary>
 
-Yes. [Book a guided demo](https://toran.rsflowhub.com/contact?topic=demo&utm_source=github&utm_medium=readme&utm_campaign=toran) and we will walk you through a sample wedding.
+Yes. Open the **[live demo](https://demo-toran.rsflowhub.com/login)** (no sign-up). It has a sample wedding with 300 guests, RSVPs, shagun, seating, vendors and a budget. Or [book a guided demo](https://toran.rsflowhub.com/contact?topic=demo&utm_source=github&utm_medium=readme&utm_campaign=toran).
 </details>
 
 More questions: [docs/faq.md](docs/faq.md) · [toran.rsflowhub.com/faq](https://toran.rsflowhub.com/faq?utm_source=github&utm_medium=readme&utm_campaign=toran)
@@ -265,7 +273,8 @@ More questions: [docs/faq.md](docs/faq.md) · [toran.rsflowhub.com/faq](https://
 | | |
 |---|---|
 | 🛒 **Buy** | [toran.rsflowhub.com/pricing](https://toran.rsflowhub.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=toran) |
-| 🎥 **Demo** | [toran.rsflowhub.com/contact](https://toran.rsflowhub.com/contact?topic=demo&utm_source=github&utm_medium=readme&utm_campaign=toran) |
+| 🎮 **Live demo** | [demo-toran.rsflowhub.com](https://demo-toran.rsflowhub.com/login) |
+| 🎥 **Guided demo** | [toran.rsflowhub.com/contact](https://toran.rsflowhub.com/contact?topic=demo&utm_source=github&utm_medium=readme&utm_campaign=toran) |
 | 💍 **For planners** | [toran.rsflowhub.com/wedding/planner-software](https://toran.rsflowhub.com/wedding/planner-software?utm_source=github&utm_medium=readme&utm_campaign=toran) |
 | 📧 **Email** | support@rsflowhub.com |
 | 🌐 **Company** | [RSFlowHub](https://rsflowhub.com/?utm_source=github&utm_medium=readme&utm_campaign=toran) |
